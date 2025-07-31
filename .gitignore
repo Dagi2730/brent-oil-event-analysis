@@ -1,0 +1,53 @@
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data files (comment out if you want to push any)
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# Reports and outputs
+reports/*.pdf
+reports/*.html
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Mac OS files
+.DS_Store
+
+# Python cache and environment
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Exclude entire data folder contents (all CSV, XLSX, etc.)
+data/*
+
+# Reports and outputs
+reports/*.pdf
+reports/*.html
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Mac OS files
+.DS_Store
