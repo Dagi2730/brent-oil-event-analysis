@@ -25,27 +25,48 @@ This analysis was conducted by a data scientist at **Birhan Energies**, a strate
 ## Repository Structure
 
 brent-oil-change-points/
+
 │
+
 ├── data/                # Raw and processed datasets
+
 │   ├── brent_oil_prices.csv
+
 │   └── key_events.csv
+
 │
 ├── notebooks/           # Exploratory analysis and modeling notebooks
+
 │   ├── 01_eda_cleaning.ipynb
+
 │   ├── 02_event_mapping.ipynb
+
 │   └── 03_bayesian_model.ipynb
+
 │
+
 ├── src/                 # Python modules (modeling, utils)
+
 │   └── change_point_model.py
+
 │
+
 ├── dashboard/           # Flask + React dashboard application
+
 │   ├── backend/         # Flask APIs
+
 │   └── frontend/        # React UI
+
 │
+
 ├── reports/             # PDF/Markdown reports and visualizations
+
 │   └── final_report.pdf
+
 │
+
 ├── requirements.txt     # Python dependencies
+
 └── README.md            # This file
 
 
