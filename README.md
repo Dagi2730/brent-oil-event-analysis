@@ -181,4 +181,3 @@ To run the project locally:
 flask run
 
 
-5. 
